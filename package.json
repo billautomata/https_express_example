@@ -1,0 +1,29 @@
+{
+  "name": "https_express_example",
+  "version": "1.0.0",
+  "description": "the bare minimum to serve https pages with express",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create_keys": "openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout nginx.key -out nginx.crt"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billautomata/https_express_example.git"
+  },
+  "keywords": [
+    "ssl",
+    "tls",
+    "https",
+    "privacy"
+  ],
+  "bugs": {
+    "url": "https://github.com/billautomata/https_express_example/issues"
+  },
+  "homepage": "https://github.com/billautomata/https_express_example"
+}
