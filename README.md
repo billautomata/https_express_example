@@ -37,4 +37,4 @@ Email Address []:
 
 _In OSX_ If you then type `open nginx.crt` and click "Always Trust", then everything should work without the warning prompts.
 
-then run the server `node main.js`
+Finally run the server `node main.js`.
